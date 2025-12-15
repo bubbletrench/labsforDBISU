@@ -335,3 +335,16 @@ CREATE INDEX idx_trains_type ON trains(type_id);
 Расчет скидок и агрегация данных
 
 <img width="1029" height="724" alt="image" src="https://github.com/user-attachments/assets/f9eeb346-008d-456c-a7c2-03b2992c4eb9" />
+
+# Лабораторная работа 3.
+## Представления для выходных документов
+### Первый выходной документ. Расписание поездов.
+<img width="640" height="778" alt="image" src="https://github.com/user-attachments/assets/59f6ab17-827b-4860-9084-1da7d0df5769" />
+Проверка работы
+<img width="1400" height="407" alt="image" src="https://github.com/user-attachments/assets/ad400c70-c087-43a7-9574-2e68af5ec5a9" />
+
+### Второй выходной документ. Список проданных билетов
+<img width="849" height="672" alt="image" src="https://github.com/user-attachments/assets/97bb010e-67a7-4213-a69c-4cd975ea9ef2" />
+Проверка работы
+<img width="1426" height="649" alt="image" src="https://github.com/user-attachments/assets/19eaaefe-9a04-4873-8d3a-b900ecaf91be" />
+
