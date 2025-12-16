@@ -1,4 +1,4 @@
-# Лабораторные работы
+<img width="544" height="533" alt="Screenshot 2025-12-16 164818" src="https://github.com/user-attachments/assets/1db0adad-5918-451f-bd74-e9be11300504" /># Лабораторные работы
 Лабораторные работы по Базам Данных Медведев Владислав 02261-ДБ
 Вариант 29. Покупка билетов на поезда
 ## Вариант 29. Покупка билетов на поезда. Постановка задачи
@@ -339,12 +339,40 @@ CREATE INDEX idx_trains_type ON trains(type_id);
 # Лабораторная работа 3.
 ## Представления для выходных документов
 ### Первый выходной документ. Расписание поездов.
-<img width="640" height="778" alt="image" src="https://github.com/user-attachments/assets/59f6ab17-827b-4860-9084-1da7d0df5769" />
+<img width="510" height="481" alt="Screenshot 2025-12-16 163107" src="https://github.com/user-attachments/assets/727ab392-222d-4c17-b299-d6ba28124a91" />
 Проверка работы
-<img width="1400" height="407" alt="image" src="https://github.com/user-attachments/assets/ad400c70-c087-43a7-9574-2e68af5ec5a9" />
+<img width="1166" height="566" alt="Screenshot 2025-12-16 163148" src="https://github.com/user-attachments/assets/d1ab60b3-2526-4214-8e31-c5d1754ba53a" />
 
 ### Второй выходной документ. Список проданных билетов
-<img width="849" height="672" alt="image" src="https://github.com/user-attachments/assets/97bb010e-67a7-4213-a69c-4cd975ea9ef2" />
+<img width="664" height="476" alt="Screenshot 2025-12-16 163225" src="https://github.com/user-attachments/assets/20c9b9cb-a00f-4290-bf8a-d75d391dcd34" />
 Проверка работы
-<img width="1426" height="649" alt="image" src="https://github.com/user-attachments/assets/19eaaefe-9a04-4873-8d3a-b900ecaf91be" />
+<img width="1107" height="566" alt="Screenshot 2025-12-16 163253" src="https://github.com/user-attachments/assets/880fecd8-3fac-4bf3-9ad6-b58fc2c5ea31" />
 
+## Процедуры с параметрами
+
+Ежедневная выручка с билетов
+<img width="605" height="690" alt="Screenshot 2025-12-16 164736" src="https://github.com/user-attachments/assets/903b2223-023f-4af0-9396-785734683750" />
+<img width="544" height="533" alt="Screenshot 2025-12-16 164818" src="https://github.com/user-attachments/assets/b7746ade-2d58-4b2a-81f4-4614673b68e9" />
+
+Добавление пассажиров
+<img width="760" height="729" alt="image" src="https://github.com/user-attachments/assets/ac0e7cea-e38a-42b1-9a05-cee9657b2a37" />
+<img width="920" height="445" alt="image" src="https://github.com/user-attachments/assets/97a73b0f-a8bc-4389-bccd-2f5542eb7d2c" />
+
+Обновление пассажира
+<img width="659" height="702" alt="image" src="https://github.com/user-attachments/assets/1ed9a36e-24b7-4bf4-9ec0-338db7ba9f29" />
+<img width="905" height="408" alt="image" src="https://github.com/user-attachments/assets/97610bc9-a769-4f6b-b6af-935bb8786098" />
+
+Удаление пассажира
+<img width="733" height="461" alt="image" src="https://github.com/user-attachments/assets/a86ebb90-64fd-4e43-a89c-04dd49efa820" />
+<img width="919" height="260" alt="image" src="https://github.com/user-attachments/assets/08a2b840-d994-4de8-a272-5368e43986dd" />
+Примечание: ничего не вывелось, потому что мы удалили пассажира
+
+## Сложные запросы при потощи представления.
+
+Популярность маршрутов
+<img width="725" height="576" alt="image" src="https://github.com/user-attachments/assets/cfa9165f-26ee-4e4f-b376-4515a1bb6a16" />
+<img width="1488" height="264" alt="image" src="https://github.com/user-attachments/assets/1d20c112-baf3-4623-9622-7a4a2250b082" />
+
+Аналитика по поездам и пассажирам
+<img width="682" height="580" alt="image" src="https://github.com/user-attachments/assets/7a0d9b97-9b73-4295-978c-f89ac9a11cef" />
+<img width="1508" height="255" alt="image" src="https://github.com/user-attachments/assets/29cd87c0-c692-4df2-abf5-e4d86b0a2c17" />
