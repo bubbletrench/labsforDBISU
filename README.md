@@ -415,3 +415,55 @@ CREATE INDEX idx_trains_type ON trains(type_id);
 
 <img width="682" height="580" alt="image" src="https://github.com/user-attachments/assets/7a0d9b97-9b73-4295-978c-f89ac9a11cef" />
 <img width="1508" height="255" alt="image" src="https://github.com/user-attachments/assets/29cd87c0-c692-4df2-abf5-e4d86b0a2c17" />
+
+
+
+# Лабораторная работа 4.
+
+### Генератор benefit_types и его проверка
+
+<img width="531" height="399" alt="image" src="https://github.com/user-attachments/assets/1304e669-a3ed-4e94-8ece-e2e0f000b6ea" />
+
+### Генератор carriage_types и его проверка
+
+<img width="601" height="394" alt="image" src="https://github.com/user-attachments/assets/b54f92f8-8c7b-4b94-bc57-1467110eabf7" />
+
+### Генератор train_types и его проверка
+
+<img width="549" height="401" alt="image" src="https://github.com/user-attachments/assets/17256e91-00b8-4838-bda0-3ec9dfcdf99e" />
+
+### Генератор trains и его проверка
+
+<img width="541" height="420" alt="image" src="https://github.com/user-attachments/assets/241e9a05-bcb5-4f22-b079-efb70f830c8b" />
+
+### Генератор passengers и его проверка
+
+<img width="797" height="490" alt="image" src="https://github.com/user-attachments/assets/b29d1aac-cd66-487d-8ca8-6e75adedf6a2" />
+
+### Генератор schedules и его проверка
+
+<img width="954" height="506" alt="image" src="https://github.com/user-attachments/assets/48ed9804-898a-403f-861b-bd7869d9a614" />
+
+### Генератор tickets и его проверка
+
+<img width="906" height="537" alt="image" src="https://github.com/user-attachments/assets/5e5d333c-a7b6-4c05-b66a-f41b1b5173fd" />
+
+## Анализ планов выполнения запросов (EXPLAIN ANALYZE)
+
+<img width="756" height="808" alt="Screenshot 2025-12-17 202653" src="https://github.com/user-attachments/assets/33b828f4-f256-4a5e-aa32-7cc2c9d7d6f2" />
+
+Время выполнения: 2.733 миллисекунды
+
+## Оптимизируем БД при помощи индексов
+
+<img width="683" height="561" alt="Screenshot 2025-12-17 202720" src="https://github.com/user-attachments/assets/a2cdf9f3-111b-40e1-b22e-072e65981645" />
+
+## Сверим результаты производительности
+
+<img width="794" height="822" alt="Screenshot 2025-12-17 202735" src="https://github.com/user-attachments/assets/ecca5add-eb57-43d5-9fa2-7551f1b68e99" />
+
+Время выполнения: 0.175 миллисекунд
+
+Результат: До оптимизации время выполнения запроса состовляло 2.733 мc, происходило сканирование всей стаблицы из 20000 строк.
+После оптимизации выполнение запроса происходит по индексу и составляет 0.175 мс, что в 15.5 раз быстрее.
+
