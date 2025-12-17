@@ -467,3 +467,35 @@ CREATE INDEX idx_trains_type ON trains(type_id);
 Результат: До оптимизации время выполнения запроса состовляло 2.733 мc, происходило сканирование всей стаблицы из 20000 строк.
 После оптимизации выполнение запроса происходит по индексу и составляет 0.175 мс, что в 15.5 раз быстрее.
 
+
+# Лабораторная работа 5
+
+## Триггер каскадного удаления для связей “один-ко-многим”
+
+### Триггер функция для каскадного удаления
+
+<img width="671" height="354" alt="image" src="https://github.com/user-attachments/assets/7d13b146-6058-4d2c-8bea-af363f0315e4" />
+
+### Создаем сам триггер на таблице passengers
+
+<img width="646" height="208" alt="image" src="https://github.com/user-attachments/assets/bd5d0665-16c3-41d6-8baa-9e8df96ad54a" />
+
+### Проверяем его на работоспособность
+
+<img width="1202" height="388" alt="image" src="https://github.com/user-attachments/assets/0aaa9458-43dc-4d6b-8f95-118fc462d96c" />
+
+## Таблица для ведения изменений
+
+<img width="505" height="233" alt="image" src="https://github.com/user-attachments/assets/99abdd1e-a2c9-42ba-b129-04bbd1cc432e" />
+
+## Триггер INSERT
+
+<img width="653" height="439" alt="image" src="https://github.com/user-attachments/assets/13096568-fdbd-4661-b7a6-25a6ed2f6413" />
+
+## Триггер UPDATE
+
+<img width="700" height="433" alt="image" src="https://github.com/user-attachments/assets/f04b1bea-df61-47cb-8ee8-5bd589af4be3" />
+
+## Триггер DELETE
+
+<img width="662" height="445" alt="image" src="https://github.com/user-attachments/assets/9d187213-4d7a-431b-90b0-87c403f985dd" />
